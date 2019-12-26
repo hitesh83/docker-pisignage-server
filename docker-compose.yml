@@ -11,7 +11,7 @@ services:
         MONGO_URI: mongodb://mongo/pisignage-server
         NODE_ENV: docker
   mongo:
-      image: mongo:3.4
+      image: mvertes/alpine-mongo:latest
       ports:
         - 27017:27017
       restart: always
