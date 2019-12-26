@@ -1,3 +1,5 @@
+#converting base to alpine 
+
 #PiSignage Server for Docker
 
 Installs the PiSignage Server of https://github.com/colloqi/pisignage-server 
