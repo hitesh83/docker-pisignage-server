@@ -1,8 +1,7 @@
 FROM mhart/alpine-node:latest
 
 RUN apk update && apk upgrade && \
-    apk add --no-cache bash git openssh
-RUN apk --no-cache add imagemagick ffmpeg bash
+    apk add --no-cache bash git openssh imagemagick ffmpeg 
 
 RUN mkdir -vp media/_thumbnails
 RUN git clone --branch 2.5.4 https://github.com/colloqi/pisignage-server /usr/src/app
